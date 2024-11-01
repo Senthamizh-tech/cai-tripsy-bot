@@ -1,5 +1,5 @@
-var botId = "st-dd42b999-8ea0-58fd-9099-94b50b90f6f5";
-var botName = "Gidean";
+var botId = "st-5ce0721c-5c5e-56b0-a0ba-cac19303c9a5";
+var botName = "OrderManage";
 var sdk = require("./lib/sdk");
 
 /*
