@@ -1,5 +1,5 @@
-var botId = "st-969e6350-0439-5958-a697-d239ec90c45b";
-var botName = "Bumbble Bee";
+var botId = "st-c0d6e254-c22b-5288-98f3-fcfb7e305230";
+var botName = "cai_canada_bot";
 var sdk = require("./lib/sdk");
 
 /*
