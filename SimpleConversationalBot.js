@@ -14,7 +14,7 @@ module.exports = {
     botName : botName,
 
     on_user_message : function(requestId, data, callback) {
-        console.log("user",data.message)
+        console.log("user message ===> ", data.message);
         if (data.message === "Hi") {
             data.message = "Hello";
             console.log("user message",data.message);
@@ -34,7 +34,8 @@ module.exports = {
             console.log("bot message",data)
         }
         //Sends back the message to user
-        console.log("bot message",data.message)
+        console.log("bot message ===> ", data.message);
+        console.log("bot message entities ===> ", data.context.entities);
         return sdk.sendUserMessage(data, callback);
     },
     on_agent_transfer : function(requestId, data, callback){
