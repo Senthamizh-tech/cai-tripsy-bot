@@ -1,4 +1,4 @@
-var botId = "st-c0d6e254-c22b-5288-98f3-fcfb7e305230";
+var botId = "st-e8418ecb-dca7-5173-8b79-b1cc65dcee38";
 var botName = "cai_canada_bot";
 var sdk = require("./lib/sdk");
 
